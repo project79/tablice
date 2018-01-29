@@ -1,13 +1,9 @@
-/*
-   Tablica za izračun kapacitet izolacije
-*/
+/* Header */
 
-section {
-     padding: 2rem 0;
- }
 
+/* Tablica za izračun kapacitet izolacije */
 #kapacitet-kabela {
-    background-color:rgb(226, 240, 250);
+    background-color:rgb(46, 53, 97);
     background-image: linear-gradient(white 2px, transparent 2px),
     linear-gradient(90deg, white 2px, transparent 2px),
     linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
@@ -36,7 +32,9 @@ tr.row-divider td {
     border-right: none;
 }
 
-tr.row-divider:hover {
+tr.row-divider:hover,
+tr.row-divider td {
+    background: none;
     background-color: transparent;
 }
 
